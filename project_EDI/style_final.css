@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color:  #151719;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+.waviy {
+  position: relative;
+  /* -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2)); */
+  font-size: 60px;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.students{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    opacity: 0.7;
+}
+
+/* .chart-container{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+} */
+
+.chart-container{
+  padding-bottom: 50px;
+  max-width: 100%;
+  display: flex;
+
+}
+
+/* .chart-container>canvas{
+  height: 250px;
+  width:250px;
+} */
+
+/* .buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.buttons{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+#button{
+  background-color: #ACADA8;
+  color:black;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  margin-top: -100px;
+}
+.container{
+  position:relative;
+}
+#button:hover{
+  background-color: black;
+  color: #ACADA8;
+  cursor: pointer;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-10px)
+  }
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+}
+

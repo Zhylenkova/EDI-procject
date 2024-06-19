@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+        <script src="script_final.js"></script>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style_final.css" rel="stylesheet" type="text/css" />
+        <title>EDI project</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="headliner1">
+                <div class="waviy">
+                    <span style="--i: 1">E</span>
+                    <span style="--i: 2">D</span>
+                    <span style="--i: 3">I</span>
+                    <span style="--i: 4">-</span>
+                    <span style="--i: 5">P</span>
+                    <span style="--i: 6">R</span>
+                    <span style="--i: 7">O</span>
+                    <span style="--i: 8">J</span>
+                    <span style="--i: 9">E</span>
+                    <span style="--i: 10">C</span>
+                    <span style="--i: 11">T</span>
+                </div>
+                <h3>ZZISS-1113</h3>
+            </div>
+            <div class="buttons">
+                <button id="button" class="button1" onclick="fetch1()">
+                    Load charts
+                </button>
+            </div>
+            <div class="chart-container">
+                <canvas id="pieChart"></canvas>
+                <canvas id="barChart"></canvas>
+                <canvas id="barChart2"></canvas>
+            </div>
+
+            <div class="container">
+                <table class="table1">
+                    <thead class="thead1">
+                        <tr>
+                            <th scope="col">VIN number</th>
+                            <th scope="col">Been in accident</th>
+                            <th scope="col">Car model</th>
+                            <th scope="col">Years in use</th>
+                            <th scope="col">Satisfaction rate</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body"></tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
